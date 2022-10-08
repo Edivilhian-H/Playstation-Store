@@ -5,25 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+<!-- =================LINK FONTS ==================== -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,400&family=Roboto:wght@100;500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,400&family=Roboto:wght@100;500&display=swap"
         rel="stylesheet">
+
+<!-- =================LINK CSS ==================== -->
+
+    <link rel="stylesheet" href="./style.css">
+    
+
     <title>Playstation Store</title>
+
+
 </head>
 
-<body >
+<body>
     <div class="div-1">
-        <div class="div-2" >
+        <div class="div-2">
             <img class="img-1" src="./img/logo.png" alt="logo">
             <nav>
                 <ul id="ul-1">
-                    <li class="nav-li" > <a  class="nav-link">Consoles</a> </li>
-                    <li class="nav-li" > <a  class="nav-link">Acessórios</a></li>
-                    <li class="nav-li" ><a  class="nav-link">Controles</a> </li>
-                    <li class="nav-li" > <a  class="nav-link">Outros</a> </li>
+                    <li class="nav-li"> <a class="nav-link">Consoles</a> </li>
+                    <li class="nav-li"> <a class="nav-link">Acessórios</a></li>
+                    <li class="nav-li"><a class="nav-link">Controles</a> </li>
+                    <li class="nav-li"> <a class="nav-link">Outros</a> </li>
                 </ul>
             </nav>
             <img class="img-2" src="./img/menu.png" alt="menu" onclick="showmenu()">
@@ -35,7 +43,7 @@
                 <h3>Wireless Controller for Playstation</h3>
                 <p>Controle original</p>
                 <h4>R$ 222,50</h4>
-                <button class="button-1">Comprar agora  <img src="./img/arrow.png" alt="seta"></button>
+                <button class="button-1">Comprar agora <img src="./img/arrow.png" alt="seta"></button>
             </div>
 
             <div class="div-5">
@@ -61,12 +69,12 @@
 <script>
     const menuul = document.getElementById("ul-1")
     menuul.style.maxHeight = "0px"
-   
-    function showmenu(){
-        if(menuul.style.maxHeight == "0px"){
+
+    function showmenu() {
+        if (menuul.style.maxHeight == "0px") {
             menuul.style.maxHeight = "120px"
         }
-        else{
+        else {
             menuul.style.maxHeight = "0px"
         }
     }
