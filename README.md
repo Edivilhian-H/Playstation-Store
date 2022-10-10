@@ -7,6 +7,9 @@
 <h3>Tecnologias utilizadas<h3>
 <p>-HTML</p>
 <p>-CSS</p>
+<br>
+<a href="https:https://edivilhian-h.github.io/Playstation-Store/">PROJETO AQUI!</a>
+<br>
 
 <br>
 <img src="https://github.com/Edivilhian-H/Playstation-Store-main/blob/master/img/desktop.png?raw=true"/>
