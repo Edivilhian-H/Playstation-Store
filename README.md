@@ -8,12 +8,12 @@
 <p>-HTML</p>
 <p>-CSS</p>
 <br>
-<a href="https:https://edivilhian-h.github.io/Playstation-Store/">PROJETO AQUI!</a>
+<a href="https://edivilhian-h.github.io/Playstation-Store/">PROJETO AQUI!</a>
 <br>
 
 <br>
-<img src=""/>
+<img src="https://github.com/Edivilhian-H/Playstation-Store/blob/main/img/img-do-projeto/desktop.png?raw=true"/>
 <br>
 <br>
 <br>
-<img src=""/>
+<img src="https://github.com/Edivilhian-H/Playstation-Store/blob/main/img/img-do-projeto/mobile.png?raw=true"/>
